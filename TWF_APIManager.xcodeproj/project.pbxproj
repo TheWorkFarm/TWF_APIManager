@@ -19,6 +19,10 @@
 		010F5E5613167C4B008B3CFB /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 010F5E5413167C4B008B3CFB /* MainWindow_iPhone.xib */; };
 		010F5E5A13167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F5E5913167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPad.m */; };
 		010F5E5D13167C4B008B3CFB /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 010F5E5B13167C4B008B3CFB /* MainWindow_iPad.xib */; };
+		010F5E6C13167EFF008B3CFB /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F5E6B13167EFF008B3CFB /* libz.1.2.3.dylib */; };
+		010F5E7013167F2D008B3CFB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F5E6D13167F2C008B3CFB /* CFNetwork.framework */; };
+		010F5E7113167F2D008B3CFB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F5E6E13167F2C008B3CFB /* MobileCoreServices.framework */; };
+		010F5E7213167F2D008B3CFB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F5E6F13167F2C008B3CFB /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,19 +31,23 @@
 		010F5E3B13167C4B008B3CFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		010F5E3D13167C4B008B3CFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		010F5E3F13167C4B008B3CFB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		010F5E4313167C4B008B3CFB /* TWF_APIManager-Info.plist */ = {isa = PBXFileReference; path = "TWF_APIManager-Info.plist"; sourceTree = "<group>"; };
+		010F5E4313167C4B008B3CFB /* TWF_APIManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TWF_APIManager-Info.plist"; sourceTree = "<group>"; };
 		010F5E4513167C4B008B3CFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		010F5E4713167C4B008B3CFB /* TWF_APIManager-Prefix.pch */ = {isa = PBXFileReference; path = "TWF_APIManager-Prefix.pch"; sourceTree = "<group>"; };
+		010F5E4713167C4B008B3CFB /* TWF_APIManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TWF_APIManager-Prefix.pch"; sourceTree = "<group>"; };
 		010F5E4813167C4B008B3CFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		010F5E4A13167C4B008B3CFB /* TWF_APIManagerAppDelegate.h */ = {isa = PBXFileReference; path = TWF_APIManagerAppDelegate.h; sourceTree = "<group>"; };
+		010F5E4A13167C4B008B3CFB /* TWF_APIManagerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWF_APIManagerAppDelegate.h; sourceTree = "<group>"; };
 		010F5E4B13167C4B008B3CFB /* TWF_APIManagerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWF_APIManagerAppDelegate.m; sourceTree = "<group>"; };
 		010F5E4E13167C4B008B3CFB /* TWF_APIManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TWF_APIManager.xcdatamodel; sourceTree = "<group>"; };
-		010F5E5113167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = TWF_APIManagerAppDelegate_iPhone.h; path = iPhone/TWF_APIManagerAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		010F5E5113167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TWF_APIManagerAppDelegate_iPhone.h; path = iPhone/TWF_APIManagerAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		010F5E5213167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TWF_APIManagerAppDelegate_iPhone.m; path = iPhone/TWF_APIManagerAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		010F5E5513167C4B008B3CFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		010F5E5813167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPad.h */ = {isa = PBXFileReference; name = TWF_APIManagerAppDelegate_iPad.h; path = iPad/TWF_APIManagerAppDelegate_iPad.h; sourceTree = "<group>"; };
+		010F5E5813167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TWF_APIManagerAppDelegate_iPad.h; path = iPad/TWF_APIManagerAppDelegate_iPad.h; sourceTree = "<group>"; };
 		010F5E5913167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TWF_APIManagerAppDelegate_iPad.m; path = iPad/TWF_APIManagerAppDelegate_iPad.m; sourceTree = "<group>"; };
 		010F5E5C13167C4B008B3CFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		010F5E6B13167EFF008B3CFB /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		010F5E6D13167F2C008B3CFB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		010F5E6E13167F2C008B3CFB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		010F5E6F13167F2C008B3CFB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010F5E7013167F2D008B3CFB /* CFNetwork.framework in Frameworks */,
+				010F5E7113167F2D008B3CFB /* MobileCoreServices.framework in Frameworks */,
+				010F5E7213167F2D008B3CFB /* SystemConfiguration.framework in Frameworks */,
+				010F5E6C13167EFF008B3CFB /* libz.1.2.3.dylib in Frameworks */,
 				010F5E3A13167C4B008B3CFB /* UIKit.framework in Frameworks */,
 				010F5E3C13167C4B008B3CFB /* Foundation.framework in Frameworks */,
 				010F5E3E13167C4B008B3CFB /* CoreGraphics.framework in Frameworks */,
@@ -77,6 +89,10 @@
 		010F5E3813167C4B008B3CFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				010F5E6B13167EFF008B3CFB /* libz.1.2.3.dylib */,
+				010F5E6D13167F2C008B3CFB /* CFNetwork.framework */,
+				010F5E6E13167F2C008B3CFB /* MobileCoreServices.framework */,
+				010F5E6F13167F2C008B3CFB /* SystemConfiguration.framework */,
 				010F5E3913167C4B008B3CFB /* UIKit.framework */,
 				010F5E3B13167C4B008B3CFB /* Foundation.framework */,
 				010F5E3D13167C4B008B3CFB /* CoreGraphics.framework */,
