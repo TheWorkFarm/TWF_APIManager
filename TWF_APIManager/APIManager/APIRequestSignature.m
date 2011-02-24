@@ -23,8 +23,8 @@
     id _self = [super init];
     
     if (_self != nil) {
-        self = _self;        
-        NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];              
+        self = _self;
+                NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];              
         _apiKey = [prefs stringForKey:@"apiKey"];
 		_apiSecret = [prefs stringForKey:@"apiSecret"];
     }

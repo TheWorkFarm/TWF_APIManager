@@ -21,6 +21,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"APIManagerSettings" ofType:@"plist"];
+    NSDictionary *defaultsDict = [NSDictionary dictionaryWithContentsOfFile:filePath];
+    [[NSUserDefaults standardUserDefaults] registerDefaults:defaultsDict];
+    
+
+    
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
     return YES;
