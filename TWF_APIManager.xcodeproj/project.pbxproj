@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010F5E3A13167C4B008B3CFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F5E3913167C4B008B3CFB /* UIKit.framework */; };
+		010F5E3C13167C4B008B3CFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F5E3B13167C4B008B3CFB /* Foundation.framework */; };
+		010F5E3E13167C4B008B3CFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F5E3D13167C4B008B3CFB /* CoreGraphics.framework */; };
+		010F5E4013167C4B008B3CFB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F5E3F13167C4B008B3CFB /* CoreData.framework */; };
+		010F5E4613167C4B008B3CFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 010F5E4413167C4B008B3CFB /* InfoPlist.strings */; };
+		010F5E4913167C4B008B3CFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F5E4813167C4B008B3CFB /* main.m */; };
+		010F5E4C13167C4B008B3CFB /* TWF_APIManagerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F5E4B13167C4B008B3CFB /* TWF_APIManagerAppDelegate.m */; };
+		010F5E4F13167C4B008B3CFB /* TWF_APIManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 010F5E4D13167C4B008B3CFB /* TWF_APIManager.xcdatamodeld */; };
+		010F5E5313167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F5E5213167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPhone.m */; };
+		010F5E5613167C4B008B3CFB /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 010F5E5413167C4B008B3CFB /* MainWindow_iPhone.xib */; };
+		010F5E5A13167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F5E5913167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPad.m */; };
+		010F5E5D13167C4B008B3CFB /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 010F5E5B13167C4B008B3CFB /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		010F5E3513167C4B008B3CFB /* TWF_APIManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWF_APIManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		010F5E3913167C4B008B3CFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		010F5E3B13167C4B008B3CFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		010F5E3D13167C4B008B3CFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		010F5E3F13167C4B008B3CFB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		010F5E4313167C4B008B3CFB /* TWF_APIManager-Info.plist */ = {isa = PBXFileReference; path = "TWF_APIManager-Info.plist"; sourceTree = "<group>"; };
+		010F5E4513167C4B008B3CFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		010F5E4713167C4B008B3CFB /* TWF_APIManager-Prefix.pch */ = {isa = PBXFileReference; path = "TWF_APIManager-Prefix.pch"; sourceTree = "<group>"; };
+		010F5E4813167C4B008B3CFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		010F5E4A13167C4B008B3CFB /* TWF_APIManagerAppDelegate.h */ = {isa = PBXFileReference; path = TWF_APIManagerAppDelegate.h; sourceTree = "<group>"; };
+		010F5E4B13167C4B008B3CFB /* TWF_APIManagerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWF_APIManagerAppDelegate.m; sourceTree = "<group>"; };
+		010F5E4E13167C4B008B3CFB /* TWF_APIManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TWF_APIManager.xcdatamodel; sourceTree = "<group>"; };
+		010F5E5113167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = TWF_APIManagerAppDelegate_iPhone.h; path = iPhone/TWF_APIManagerAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		010F5E5213167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TWF_APIManagerAppDelegate_iPhone.m; path = iPhone/TWF_APIManagerAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		010F5E5513167C4B008B3CFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		010F5E5813167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPad.h */ = {isa = PBXFileReference; name = TWF_APIManagerAppDelegate_iPad.h; path = iPad/TWF_APIManagerAppDelegate_iPad.h; sourceTree = "<group>"; };
+		010F5E5913167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TWF_APIManagerAppDelegate_iPad.m; path = iPad/TWF_APIManagerAppDelegate_iPad.m; sourceTree = "<group>"; };
+		010F5E5C13167C4B008B3CFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		010F5E3213167C4B008B3CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010F5E3A13167C4B008B3CFB /* UIKit.framework in Frameworks */,
+				010F5E3C13167C4B008B3CFB /* Foundation.framework in Frameworks */,
+				010F5E3E13167C4B008B3CFB /* CoreGraphics.framework in Frameworks */,
+				010F5E4013167C4B008B3CFB /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010F5E2A13167C4A008B3CFB = {
+			isa = PBXGroup;
+			children = (
+				010F5E4113167C4B008B3CFB /* TWF_APIManager */,
+				010F5E3813167C4B008B3CFB /* Frameworks */,
+				010F5E3613167C4B008B3CFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		010F5E3613167C4B008B3CFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				010F5E3513167C4B008B3CFB /* TWF_APIManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		010F5E3813167C4B008B3CFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				010F5E3913167C4B008B3CFB /* UIKit.framework */,
+				010F5E3B13167C4B008B3CFB /* Foundation.framework */,
+				010F5E3D13167C4B008B3CFB /* CoreGraphics.framework */,
+				010F5E3F13167C4B008B3CFB /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		010F5E4113167C4B008B3CFB /* TWF_APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				010F5E4A13167C4B008B3CFB /* TWF_APIManagerAppDelegate.h */,
+				010F5E4B13167C4B008B3CFB /* TWF_APIManagerAppDelegate.m */,
+				010F5E4D13167C4B008B3CFB /* TWF_APIManager.xcdatamodeld */,
+				010F5E5013167C4B008B3CFB /* iPhone */,
+				010F5E5713167C4B008B3CFB /* iPad */,
+				010F5E4213167C4B008B3CFB /* Supporting Files */,
+			);
+			path = TWF_APIManager;
+			sourceTree = "<group>";
+		};
+		010F5E4213167C4B008B3CFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				010F5E4313167C4B008B3CFB /* TWF_APIManager-Info.plist */,
+				010F5E4413167C4B008B3CFB /* InfoPlist.strings */,
+				010F5E4713167C4B008B3CFB /* TWF_APIManager-Prefix.pch */,
+				010F5E4813167C4B008B3CFB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		010F5E5013167C4B008B3CFB /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				010F5E5113167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPhone.h */,
+				010F5E5213167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPhone.m */,
+				010F5E5413167C4B008B3CFB /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		010F5E5713167C4B008B3CFB /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				010F5E5813167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPad.h */,
+				010F5E5913167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPad.m */,
+				010F5E5B13167C4B008B3CFB /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		010F5E3413167C4B008B3CFB /* TWF_APIManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010F5E6013167C4B008B3CFB /* Build configuration list for PBXNativeTarget "TWF_APIManager" */;
+			buildPhases = (
+				010F5E3113167C4B008B3CFB /* Sources */,
+				010F5E3213167C4B008B3CFB /* Frameworks */,
+				010F5E3313167C4B008B3CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWF_APIManager;
+			productName = TWF_APIManager;
+			productReference = 010F5E3513167C4B008B3CFB /* TWF_APIManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		010F5E2C13167C4A008B3CFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "The Work Farm Ltd.";
+			};
+			buildConfigurationList = 010F5E2F13167C4A008B3CFB /* Build configuration list for PBXProject "TWF_APIManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 010F5E2A13167C4A008B3CFB;
+			productRefGroup = 010F5E3613167C4B008B3CFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				010F5E3413167C4B008B3CFB /* TWF_APIManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		010F5E3313167C4B008B3CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010F5E4613167C4B008B3CFB /* InfoPlist.strings in Resources */,
+				010F5E5613167C4B008B3CFB /* MainWindow_iPhone.xib in Resources */,
+				010F5E5D13167C4B008B3CFB /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		010F5E3113167C4B008B3CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010F5E4913167C4B008B3CFB /* main.m in Sources */,
+				010F5E4C13167C4B008B3CFB /* TWF_APIManagerAppDelegate.m in Sources */,
+				010F5E4F13167C4B008B3CFB /* TWF_APIManager.xcdatamodeld in Sources */,
+				010F5E5313167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPhone.m in Sources */,
+				010F5E5A13167C4B008B3CFB /* TWF_APIManagerAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		010F5E4413167C4B008B3CFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010F5E4513167C4B008B3CFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		010F5E5413167C4B008B3CFB /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010F5E5513167C4B008B3CFB /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		010F5E5B13167C4B008B3CFB /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010F5E5C13167C4B008B3CFB /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		010F5E5E13167C4B008B3CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		010F5E5F13167C4B008B3CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		010F5E6113167C4B008B3CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TWF_APIManager/TWF_APIManager-Prefix.pch";
+				INFOPLIST_FILE = "TWF_APIManager/TWF_APIManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		010F5E6213167C4B008B3CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TWF_APIManager/TWF_APIManager-Prefix.pch";
+				INFOPLIST_FILE = "TWF_APIManager/TWF_APIManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010F5E2F13167C4A008B3CFB /* Build configuration list for PBXProject "TWF_APIManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010F5E5E13167C4B008B3CFB /* Debug */,
+				010F5E5F13167C4B008B3CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010F5E6013167C4B008B3CFB /* Build configuration list for PBXNativeTarget "TWF_APIManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010F5E6113167C4B008B3CFB /* Debug */,
+				010F5E6213167C4B008B3CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		010F5E4D13167C4B008B3CFB /* TWF_APIManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				010F5E4E13167C4B008B3CFB /* TWF_APIManager.xcdatamodel */,
+			);
+			currentVersion = 010F5E4E13167C4B008B3CFB /* TWF_APIManager.xcdatamodel */;
+			path = TWF_APIManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 010F5E2C13167C4A008B3CFB /* Project object */;
+}
