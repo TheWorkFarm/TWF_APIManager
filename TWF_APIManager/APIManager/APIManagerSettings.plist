@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>baseURL</key>
-	<string>http://m.marilyn.localhost</string>
+	<string>http://localhost</string>
 	<key>apiKey</key>
 	<string>628a19dc9eee40e85cb897a55c487567</string>
 	<key>apiSecret</key>
