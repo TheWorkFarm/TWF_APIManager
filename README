@@ -1,0 +1,9 @@
+This Project is an example of setting up a Singleton to use as a way to manage API requests.
+
+- edit the APIManagerSettings.plist to add baseURL, apiKey and apiSecret
+- each API request is it's own class allowing for greater flexibility in acting on response data
+- uses notifications to pass messages and data around
+
+- #import ApiManager.h
+- create notification observer for response handling
+- [ApiManager sharedInstance] nameOfAPICallSetInApiManager];
